@@ -10,7 +10,7 @@ class LightHighLirics extends Model
 {
     use HasFactory;
 
-    protected $table = 'light_High_Lirics';
+    protected $table = 'light_High_lirics';
 
     protected $fillable = [
         'artist_name',

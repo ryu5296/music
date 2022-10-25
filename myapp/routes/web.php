@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 // 始まりの画面のルーティング
 Route::get('/start', [musicQuestionController::class, 'getStart'])->name('start');
 
+// 結果追加画面
+Route::get('/add', [musicQuestionController::class, 'getAdd'])->name('add');
+
 // 問1のルーティング
 Route::get('/feel', [musicQuestionController::class, 'getFeel'])->name('feel');
 

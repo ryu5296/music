@@ -2,12 +2,14 @@
 <form method="post" action={{ route('add') }}">
     @csrf
     <p>
-      <input type="text" name="title" placeholder="enter title">
+        <h3>アーティスト名</h3>
+        <textarea name="body" placeholder="enter body"></textarea>
     </p>
     <p>
-      <textarea name="body" placeholder="enter body"></textarea>
+        <h3>曲名</h3>
+        <textarea name="body" placeholder="enter body"></textarea>
     </p>
     <p>
-      <input type="submit" value="Add">
+        <input type="submit" value="Add">
     </p>
 </form>

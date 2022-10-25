@@ -12,6 +12,12 @@ class musicQuestionController extends Controller
         return view('start');
     }
 
+    // 音楽追加のルーティング
+    public function getAdd()
+    {
+        return view('add');
+    }
+
     // ここから下は問1のルーティング
     public function getFeel()
     {
