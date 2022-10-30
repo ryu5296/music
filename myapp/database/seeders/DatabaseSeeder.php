@@ -3,6 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\DarkHighLirics;
+use App\Models\LightSlowLirics;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -16,7 +19,13 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             LightHighLiricsSeeder::class,
-            LightHighNoLiricsSeeder::class
+            LightHighNoLiricsSeeder::class,
+            LightSlowLiricsSeeder::class,
+            LightSlowNoLiricsSeeder::class,
+            DarkHighLiricsSeeder::class,
+            DarkHighNoLiricsSeeder::class,
+            DarkSlowLiricsSeeder::class,
+            DarkSlowNoLiricsSeeder::class,
         ]);
         // \App\Models\User::factory(10)->create();
 

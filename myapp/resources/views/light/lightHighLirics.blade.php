@@ -17,5 +17,7 @@
     <h3>{{ $repo->artist_name }}</h3>
     <h3>曲名</h3>
     <h3>{{ $repo->music_title }}</h3>
+    <button type="button" onclick="location.href=' {{ route('start') }}' ">ホーム画面</button>
+
 </body>
 </html>

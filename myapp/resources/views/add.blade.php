@@ -3,11 +3,11 @@
     @csrf
     <p>
         <h3>アーティスト名</h3>
-        <textarea name="body" placeholder="enter body"></textarea>
+        <textarea name="name" placeholder="enter body">アーティスト名</textarea>
     </p>
     <p>
         <h3>曲名</h3>
-        <textarea name="body" placeholder="enter body"></textarea>
+        <textarea name="title" placeholder="enter body">曲名</textarea>
     </p>
     <p>
         <input type="submit" value="Add">
